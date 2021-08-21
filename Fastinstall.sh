@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-cd $HOME/TeamHS
+cd $HOME/SuGaR
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x TeamHS
+chmod +x SuGaR
 chmod +x install.sh
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr TeamHS.lua
+rm -fr SuGaR.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/Paiqer/TeamHS/master/TeamHS.lua"
+wget "https://raw.githubusercontent.com/Paiqer/SuGaR/master/SuGaR.lua"
 lua start.lua
 }
 installall(){
@@ -48,7 +48,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd TeamHS
+cd SuGaR
 rm -rf luarocks*
 lua start.lua
 

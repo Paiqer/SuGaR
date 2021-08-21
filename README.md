@@ -8,7 +8,7 @@ Installation
 
 install :
 
-```git clone https://SuGaR.com/SuGaR/SoUrcE SuGaR && cd SoUrcE SuGaR && chmod +x install.sh && ./install.sh```
+```git clone https://github.com/Paiqer/SuGaR SuGaR && cd SoUrcE SuGaR && chmod +x install.sh && ./install.sh```
 
 ______________________________________________________________________________________________________________________
 
