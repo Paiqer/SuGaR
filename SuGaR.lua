@@ -6680,7 +6680,7 @@ send(msg.chat_id_,msg.id_,'☑┇تم التحديث')
 os.execute('rm -rf SuGaR.lua')
 os.execute('rm -rf start.lua')
 download_to_file('https://raw.githubusercontent.com/Paiqer/SuGaR/master/SuGaR.lua', 'SuGaR.lua') 
-download_to_file('https://raw.githubusercontent.com/Paiqer/SuGaR/master/SuGaR.lua', 'start.lua') 
+download_to_file('https://raw.githubusercontent.com/Paiqer/SuGaR/master/start.lua', 'start.lua') 
 dofile('SuGaR.lua')  
 return false
 end
